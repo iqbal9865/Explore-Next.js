@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+.post-container{
+  text-align: justify;
+}
+.single-post{
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 1em;
+}
+.post-id{
+  margin-right: 5px;
+  background-color: gray;
+  padding: 20px;
+  border-radius: 50%;
+}
+.post-title{
+  padding: 20px;
+}
+Link{
+  cursor: pointer!important;
+}

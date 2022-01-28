@@ -1,8 +1,14 @@
 import Link from 'next/link'
+import Head from 'next/head'
 const Home  = () => {
     return (
         <div>
-            <h1>Hello Its is Our Next.Js Home Page</h1>
+           <Head>
+                <title>Integrate API-NextJS</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+            </Head>
+            <h1 className="text-danger">Hello Its is Our Next.Js Home Page</h1>
             <Link href="/blogs">
             Go To Blog Page
             </Link>
